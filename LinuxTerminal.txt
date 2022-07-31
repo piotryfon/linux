@@ -33,8 +33,14 @@ printf "1\n2\n3" > file.txt -> j.w. w file.txt
 grep -> wyszukuje znaki
 ls -al | sort | grep rw -> pipeline - potok
 chmod -> uprawnienia
-nano script.sh -> tworzy skrypt sh w nano 
 chmod +x script.sh -> skrypt bedzie wykonywalny
+
+useradd -m ola -p password
+userdel ola
+passwd ola
+
+nano script.sh -> tworzy skrypt sh w nano 
+
 ./script.sh -> uruchom skrypt 
 history -> !84 wywolanie numeru komendy
 !! -> bang bang - uruchamia ostatnia komende
