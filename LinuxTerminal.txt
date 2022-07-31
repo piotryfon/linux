@@ -1,0 +1,44 @@
+pwd
+cd
+cd - -> cofnij do ostatniego pliku gdzie bylem
+[ctrl] + [l] -> clear
+ls -a -> pokaz wszystko
+ls -al -> wszystko long listed
+ls -l -> long format
+ls test/ -> pokaz zawartosc test
+man ls -> instrukcja ls
+touch file.txt -> utworzy plik file.txt
+rm newfile.txt -> usuń plik
+nano file1.txt -> utworzy i edytuje - wyjscie [ctrl] + [x] i potwierdzic zapisanie pliku
+
+cat file2.txt -> wyswietl zawartosc
+cat >newfile.txt -> utworzy plik i można w nim pisać, aby wyjść [Ctrl]+[Shift]+[d]
+cat file1.txt >> file2.txt -> tworzy file2.txt i doda ">>" tekst z file1.txt na końcu
+cat file1.txt file2.txt > file3.txt -> jw tyle że skopiuje tekst '>'
+cat -n file.txt -> numery wierszy
+
+less -> wyswietl tekst linijka po linijce - przewijanie strzalkami
+mkdir
+mv file.txt test1/ -> przenies file.txt do test1
+cp -> kopioj
+rm test/file1.txt -> usun z test plik file1.txt
+rmdir test/ -> usun folder test jezeli jest pusty
+rmdir -rf test/ -> usun nawet gdy zawiera cos
+which -> gdzie jest
+whereis firefox -> gdie jest ff
+sudo find / -iname linux -> znajdz w roocie slowo linux
+echo
+printf "1\n2\n3" -> napisz 1 2 3 jeden pod drugim
+printf "1\n2\n3" > file.txt -> j.w. w file.txt
+grep -> wyszukuje znaki
+ls -al | sort | grep rw -> pipeline - potok
+chmod -> uprawnienia
+nano script.sh -> tworzy skrypt sh w nano 
+chmod +x script.sh -> skrypt bedzie wykonywalny
+./script.sh -> uruchom skrypt 
+history -> !84 wywolanie numeru komendy
+!! -> bang bang - uruchamia ostatnia komende
+kill, xkill, killall
+htop
+sudo apt install htop -> manager zadan
+bc -> kalkulator

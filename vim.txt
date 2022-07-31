@@ -1,0 +1,19 @@
+#tryb pisania
+i -> zaczyna tryb pisania
+I -> j.w na początku
+[Esc] -> kończy tryb pisania
+
+#tryb komend
+: -> zaczyna tryb komend
+:q -> wyjście
+:w -> zapis
+:q!
+:qw
+:r testdoc1 -> spowoduje wczytanie
+
+#tryb normalny
+U -> undo do zapisu
+a -> kursor o 1 w prawo i zaczyna tryb pisania
+A -> kursor na koniec linni
+gg -> pierwsa linnia
+G -> ostatnia linnia
