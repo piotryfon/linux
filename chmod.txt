@@ -1,0 +1,11 @@
+chmod 400 file.txt
+
+  uga
+7 rwx
+6 rw-
+5 r-x
+4 r--
+3 w-x
+2 w--
+1 --x
+0 ---
